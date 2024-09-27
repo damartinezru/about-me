@@ -22,29 +22,26 @@ const TypedBios = () => {
     <div>
       <ul id="bios" className="hidden">
         <li>
-          I'm aliased as <b className="font-medium">Karhdo</b> at work.
+          Me apodo como <b className="font-medium">Eladev</b> en el mundo tech.
         </li>
         <li>
-          I live in <b className="font-medium">Ho Chi Minh, Viet Nam</b>.
+          Vivo en <b className="font-medium">Bogota y Medellin, Colombia</b>.
         </li>
         <li>
-          I was born in the beautiful <b className="font-medium">Quang Ngai</b> city.
+          Mi primer lenguaje de programacion fue <b className="font-medium">C++</b>.
+        </li>
+        <li>Amo el desarrollo web</li>
+        <li>
+          Estoy enfocada en aprender <b className="font-medium">ML y Cloudfront</b>.
         </li>
         <li>
-          My first programming language I learned was <b className="font-medium">C++</b>.
+          Trabajo regularmente con <b className="font-medium">Javascript/Typescript</b>.
         </li>
-        <li>I love web development.</li>
-        <li>
-          I'm focusing on building <b className="font-medium">Social Analytics Software</b>.
-        </li>
-        <li>
-          I work mostly with <b className="font-medium">Javascript/Typescript</b> technologies.
+        {/* <li>
+          Me gusta el k-pop <Twemoji emoji="microphone" />.
         </li>
         <li>
-          I'm a dog-person <Twemoji emoji="dog" />.
-        </li>
-        <li>
-          I'm a sporty-guy. I love
+          Tambien me gusta el deporte. I love
           <span className="ml-1">
             <Twemoji emoji="tennis" />, <Twemoji emoji="soccer-ball" />
           </span>
@@ -55,7 +52,7 @@ const TypedBios = () => {
         </li>
         <li>
           I love playing video game <Twemoji emoji="video-game" />, LoL is my favorite one.
-        </li>
+        </li> */}
       </ul>
       <span ref={el} className="text-neutral-900 dark:text-neutral-200" />
     </div>

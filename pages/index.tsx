@@ -62,11 +62,11 @@ export default function Home({ posts }: InferGetStaticPropsType<typeof getStatic
             <Heading />
             <TypedBios />
             <ShortDescription />
-            <BlogLinks />
+            {/* <BlogLinks /> */}
             <SpotifyNowPlaying />
             <p className="flex">
               <span className="mr-2">Happy reading</span>
-              <Twemoji emoji="clinking-beer-mugs" />
+              {/* <Twemoji emoji="clinking-beer-mugs" /> */}
             </p>
           </div>
         </div>
@@ -75,7 +75,7 @@ export default function Home({ posts }: InferGetStaticPropsType<typeof getStatic
       <PopularTags />
 
       {/* List all post */}
-      <div className="divide-y divide-gray-200 dark:divide-gray-700">
+      {/* <div className="divide-y divide-gray-200 dark:divide-gray-700">
         <div className="space-y-2 py-6 md:space-y-5">
           <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-5xl md:leading-14">
             Recent Posts
@@ -136,7 +136,7 @@ export default function Home({ posts }: InferGetStaticPropsType<typeof getStatic
             All Posts &rarr;
           </Link>
         </div>
-      )}
+      )} */}
       {/* {siteMetadata.newsletter.provider && (
         <div className="flex items-center justify-center pt-4">
           <NewsletterForm />

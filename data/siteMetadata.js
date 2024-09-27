@@ -2,10 +2,10 @@
 /** @type {import("pliny/config").PlinyConfig } */
 
 const siteMetadata = {
-  title: "Karhdo's Coding Adventure",
+  title: "Daniela's Coding Career",
   author: 'Trong Khanh',
-  fullName: 'Do Trong Khanh',
-  headerTitle: "Karhdo's Blog",
+  fullName: 'Daniela Martinez',
+  headerTitle: "Ela's Dev",
   description: 'My desire to practice my skills and share my acquired knowledge fuels my endeavors.',
   language: 'en-us',
   theme: 'system',
@@ -24,8 +24,8 @@ const siteMetadata = {
   youtube: 'https://youtube.com',
   locale: 'en-US',
   socialAccounts: {
-    github: 'Karhdo',
-    linkedin: 'karhdo',
+    github: 'damartinezru',
+    linkedin: 'damartinezru',
     facebook: 'karhdo.dev',
   },
   analytics: {
