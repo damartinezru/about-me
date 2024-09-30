@@ -23,6 +23,8 @@ import BlogLinks from '@/components/homepage/BlogLinks';
 import SpotifyNowPlaying from '@/components/homepage/SpotifyNowPlaying';
 import PopularTags from '@/components/homepage/PopularTags';
 import Avatar from '@/components/homepage/Avatar';
+import BrandIcon from '@/components/BrandIcon';
+import clsx from 'clsx';
 
 const MAX_DISPLAY = 3;
 
@@ -35,7 +37,9 @@ export const getStaticProps = async () => {
 
 export default function Home({ posts }: InferGetStaticPropsType<typeof getStaticProps>) {
   const { headerTitle, title, description } = siteMetadata;
-
+  const naranja = clsx(
+    'bg-gradient-to-r from-gray-500 to-slate-400 dark:bg-gradient-to-l dark:from-blue-800 dark:to-primary'
+  );
   return (
     <div className="relative">
       <Snowfall
@@ -63,10 +67,17 @@ export default function Home({ posts }: InferGetStaticPropsType<typeof getStatic
             <TypedBios />
             <ShortDescription />
             {/* <BlogLinks /> */}
-            <SpotifyNowPlaying />
+            {/* <SpotifyNowPlaying /> */}
             <p className="flex">
-              <span className="mr-2">Happy reading</span>
+              <span className="mr-2">GRACIAS POR LA OPORTUNIDAD!</span>
               {/* <Twemoji emoji="clinking-beer-mugs" /> */}
+              <Image
+                src={'/static/icons/pionerasas.svg'}
+                shouldOpenLightbox={false}
+                alt="pioneras"
+                width={200}
+                height={100}
+              />
             </p>
           </div>
         </div>
